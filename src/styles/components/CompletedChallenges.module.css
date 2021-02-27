@@ -1,0 +1,21 @@
+.completedChallengesContainer {
+  display: flex;
+  align-items: center;
+  /* Um para cada canto direita e esquerda */
+
+  justify-content: space-between;
+  margin: 3.5rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d7d8da;
+
+  font-weight: 500;
+}
+
+/* :first-child é uma propriedade que permite pegar o 
+primeiro elemento, ou seja o span da esquerda */
+.completedChallengesContainer span:first-child{
+  font-size: 1.25rem;
+}
+.completedChallengesContainer span:last-child{
+  font-size: 1.5rem;
+}

@@ -1,0 +1,26 @@
+/* 16px é o valor padrão de fonte da pagina
+  1rem = 16px
+*/
+
+.container {
+  height: 100vh;
+  /* 100vh é diferente de 100% porque ele pega a altura total */
+  max-width: 992px;
+  margin: 0 auto;
+  /* Com o margin auto é possível centralizar */
+  padding: 2.5rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  /* O column permite todos os elementos 
+  abaixo do container irem ficando um abaixo do outro */
+}
+
+ .container section {
+  flex: 1;
+  display: grid;
+  /* duas colunas com tamanhos iguais */
+  grid-template-columns: 1fr 1fr;
+  gap: 6.25rem;
+  align-content: center;
+} 
